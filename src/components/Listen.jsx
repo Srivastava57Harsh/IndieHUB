@@ -5,7 +5,7 @@ import MainContainer from "./MainContainer";
 import Navbar from "./Navbar";
 export default function Listen() {
   return (
-    <div className="relative z-0">
+    <div className="relative z-0 overflow-y-hidden">
       <div className="bg-[#10061E] w-[100%] h-[100vh] ">
         <img src="/Ellipse 1.svg" className="w-[100vw] h-[100vh] blur-2xl" />
       </div>
