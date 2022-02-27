@@ -32,7 +32,7 @@ const Navbar = () => {
                 </li>
               </a>
 
-              <a>
+              <a href="/listen">
                 <li className="text-white transition-all duration-150 transform hover:scale-105 hover:underline">
                   Listen
                 </li>

@@ -18,32 +18,15 @@ export default function MainContainer() {
   return (
     <div className="mainContainer">
       <div className="menuList">
-        <ul>
-          <li>
-            <a href="#">Popular</a>
-          </li>
-          <li>
-            <a href="#">Albums</a>
-          </li>
-          <li>
-            <a href="#">Songs</a>
-          </li>
-          <li>
-            <a href="#">Fans</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-        </ul>
+        <p className=" font-semibold text-lg">#Trending</p>
 
         <p>
           <i>
             <FaUsers />
           </i>
-          12.3M <span>Followers</span>
+          1.3M <span>Followers</span>
         </p>
       </div>
-
       <AudioList />
     </div>
   );
