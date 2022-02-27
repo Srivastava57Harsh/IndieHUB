@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="bg-[#ffffff20] h-[10vh] w-[100vw]"></div>
+      <div className="bg-[#ffffff20] h-[9vh] w-[100vw]"></div>
       <div className="absolute top-0">
         <nav className=" p-1 mb-2 z-[99] w-full bg-transparent overflow-hidden">
           <div className="flex justify-between items-center m-4">
