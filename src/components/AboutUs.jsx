@@ -12,7 +12,7 @@ export default function AboutUS() {
         <div className="text-white mx-[5vw]">
           <p className="text-5xl font-semibold ml-[70vw] mt-[15vh]">ABOUT US</p>
           <div className="flex">
-            <img src="/aboutus.svg" className="" />
+            <img src="/gg.svg" className="h-[60vh]" />
             <p className="mt-[10vh] w-[50vw] text-right text-2xl ml-[14vw]">
               IndieHUB creates a fully decentralised platform for Indie
               musicians, where they can upload their own albums and songs
