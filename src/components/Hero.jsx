@@ -1,11 +1,16 @@
 import Fade from "react-reveal/Fade";
+import TextLoop from "react-text-loop";
+import Parallax from "./parallax";
 export default function Hero() {
   return (
     <div className="relative z-0">
       <div>
-        <img src="/Ellipse 1.svg" className="w-[100vw] h-[100vh]" />
+        <img src="/Ellipse 1.svg" className="w-[100vw] h-[100vh] blur-2xl" />
       </div>
       <div className="absolute inset-0 flex z-10">
+        <div className="absolute inset-0 z-0">
+          <Parallax />
+        </div>
         <div className="grid grid-cols-2 text-white mx-[5vw] mt-[10vh] ">
           <Fade bottom>
             <div>
@@ -36,7 +41,15 @@ export default function Hero() {
               <img src="/Stats.svg" className="mt-[6vh]" />
             </div>
           </Fade>
-          <div></div>
+          <Fade>
+            <div className="pl-[15vh] pt-[5vh] h-full w-full">
+              <TextLoop>
+                <img src="/pic 1.svg" />
+                <img src="/pic 2.svg" />
+                <img src="/pic 3.svg" />
+              </TextLoop>
+            </div>
+          </Fade>
         </div>
       </div>
     </div>
