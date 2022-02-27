@@ -54,7 +54,7 @@ export default function UploadSong() {
               </div>
               <div className="flex gap-6 w-full justify-center mt-[3vh]">
                 <a
-                  href=""
+                  href="/"
                   class="flex items-center text-[1.2rem] justify-center w-[240px] px-4 py-3 font-medium leading-6 text-white whitespace-no-wrap bg-red-400 border-2 border-transparent rounded-md shadow-sm hover:bg-transparent  hover:border-red-400 focus:outline-none"
                 >
                   Add your song
