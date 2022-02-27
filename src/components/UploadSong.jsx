@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Parallax from "./parallax";
+
 export default function UploadSong() {
   return (
     <div className="bg-[#10061E] w-[100%] h-[100vh] ">
@@ -53,13 +54,15 @@ export default function UploadSong() {
               </div>
               <div className="flex gap-6 w-full justify-center mt-[3vh]">
                 <a
-                  href="#_"
+                  onclick={alert("Song Added")}
+                  href=""
                   class="flex items-center text-[1.2rem] justify-center w-[240px] px-4 py-3 font-medium leading-6 text-white whitespace-no-wrap bg-red-400 border-2 border-transparent rounded-md shadow-sm hover:bg-transparent  hover:border-red-400 focus:outline-none"
                 >
                   Add your song
                 </a>
                 <a
-                  href="#_"
+                  href="https://ipfs.1-2.dev/"
+                  target={`_blank`}
                   class="flex items-center text-[1.2rem] justify-center w-[240px] px-4 py-3 font-medium leading-6 text-white whitespace-no-wrap bg-red-400 border-2 border-transparent rounded-md shadow-sm hover:bg-transparent  hover:border-red-400 focus:outline-none"
                 >
                   Upload Song to IPFS

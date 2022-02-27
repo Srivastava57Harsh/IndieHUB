@@ -82,11 +82,10 @@ const Songs = [
   {
     id: 10,
     favourite: false,
-    songName: "Turkish Folk Battle Song",
-    artist: "CVR Toon ",
-    song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2FPlevne-turkish.mp3?alt=media&token=72f7e03b-2865-4ffb-a2d1-da4c4557fb80",
-    imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fturkish.jpg?alt=media&token=1f44ad17-43a8-4e1d-b232-a78b28cb9fe0",
+    songName: "Your Song",
+    artist: "Your Name ",
+    song: "https://ipfs.io/ipfs/bafkreigklibanj7gweujhjlsps4yvhkdvmbismktizplehkd7n5z4zqwym",
+    imgSrc: "/songsd.svg",
   },
 ];
 

@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { FaHeadphones, FaRegClock, FaRegHeart, FaHeart } from "react-icons/fa";
+import {
+  FaHeadphones,
+  FaRegClock,
+  FaRegHeart,
+  FaHeart,
+  FaRegStar,
+} from "react-icons/fa";
 import "./LeftMenu.css";
 import { Songs } from "./Songs";
 import MusicPlayer from "./MusicPlayer";
@@ -44,6 +50,10 @@ export default function AudioList() {
 
                   <div className="hits">
                     <p className="duration">
+                      <i>
+                        <FaRegStar /> Tip =
+                      </i>
+                      0.01ETH
                       <i>
                         <FaRegClock />
                       </i>
