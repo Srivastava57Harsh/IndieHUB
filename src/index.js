@@ -12,7 +12,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/upload" element={<UploadSong />} />
-      <Route path="/sendEth" element={<SendPayment />} />
+      <Route path="/sendeth" element={<SendPayment />} />
     </Routes>
   </BrowserRouter>,
 

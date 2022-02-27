@@ -26,7 +26,7 @@ export default function Hero() {
               </p>
               <div className="mt-[10vh] text-[1.1rem]">
                 <a
-                  href="#_"
+                  href="/upload"
                   class="relative items-center justify-start inline-block px-[2vw] py-[2vh] overflow-hidden font-bold rounded-md group"
                 >
                   <span class="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
