@@ -13,7 +13,7 @@ export default function Faqtile() {
         <div>
           <label className="flex w-[500px] rounded-[10px] text-left text-[#ffffff50] hover:font-bold hover:text-[#ffffff]">
             <p className=" grid  py-[15px] text-left text-2xl  ">
-              How to view my NFTs in MetaMask?
+              How can I sign up?
             </p>
             <br />
           </label>
@@ -23,8 +23,8 @@ export default function Faqtile() {
         <div>
           <label className="flex w-[500px] rounded-[10px] ">
             <p className="  grid  py-[15px] text-2xl text-white">
-              Enter the NFT address and collectible ID and your NFT will appear
-              under the Collectibles tab on your MetaMask wallet
+              No hassle, Just connect your metamask wallet and you are good to
+              go.
             </p>
           </label>
           <hr className="w-[500px]" />

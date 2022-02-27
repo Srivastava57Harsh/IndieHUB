@@ -2,6 +2,10 @@ import { useState } from "react";
 import Faqtile from "./faqTile";
 import Parallax from "./parallax";
 export default function Faq() {
+  const [faq, setFaq] = useState(true);
+  const [faq2, setFaq2] = useState(true);
+  const [faq3, setFaq3] = useState(true);
+  const [faq4, setFaq4] = useState(true);
   return (
     <div className="relative z-0">
       <div>
@@ -15,22 +19,118 @@ export default function Faq() {
           Frequently Asked Questions
         </p>
         <div className="grid grid-cols-2 gap-x-[18vh] 2xl:gap-x-[25vh] gap-y-1 h-[50vh] mt-[15vh] ml-[10vh] 2xl:ml-[20vh] absolute z-30">
-          <Faqtile
-            question="What info can I change on my item?"
-            answer="Copyright transfer and resellable. You can only edit the information of the item if it's listed for sale."
-          />
-          <Faqtile
-            question="What info can I not change on my item?"
-            answer="Token ID, contract address, name, title, image, additional metadata such as adding of unlocked /bonus content and royalities percentage or smart contract associated with the NFT."
-          />
-          <Faqtile
-            question="What is Gas Fees?"
-            answer="It is the reward given to miners for putting transactions in the blockchain or executing them."
-          />
-          <Faqtile
-            question="Why is metadata important?"
-            answer="Metadata ensures that we will be able find data, use data, and preserve and re-use data in the future. It gives a unique identity to the art piece and makes it a NFT"
-          />
+          <div
+            className="mb-[20px]"
+            onClick={() => {
+              setFaq(!faq);
+            }}
+          >
+            {faq ? (
+              <div>
+                <label className="flex w-[500px] rounded-[10px] text-left text-[#ffffff50] hover:font-bold hover:text-[#ffffff]">
+                  <p className=" grid  py-[15px] text-left text-2xl  ">
+                    How can I sign up?
+                  </p>
+                  <br />
+                </label>
+                <hr className="w-[500px]" />
+              </div>
+            ) : (
+              <div>
+                <label className="flex w-[500px] rounded-[10px] ">
+                  <p className="  grid  py-[15px] text-2xl text-white">
+                    No hassle, Just connect your metamask wallet and you are
+                    good to go.
+                  </p>
+                </label>
+                <hr className="w-[500px]" />
+              </div>
+            )}
+          </div>
+          <div
+            className="mb-[20px]"
+            onClick={() => {
+              setFaq2(!faq2);
+            }}
+          >
+            {faq2 ? (
+              <div>
+                <label className="flex w-[500px] rounded-[10px] text-left text-[#ffffff50] hover:font-bold hover:text-[#ffffff]">
+                  <p className=" grid  py-[15px] text-left text-2xl  ">
+                    Which crypto currencies are we accepting?
+                  </p>
+                  <br />
+                </label>
+                <hr className="w-[500px]" />
+              </div>
+            ) : (
+              <div>
+                <label className="flex w-[500px] rounded-[10px] ">
+                  <p className="  grid  py-[15px] text-2xl text-white">
+                    Currently the smart contract is deployed on Ethereum we'll
+                    be implementing cross chain solutions soon.
+                  </p>
+                </label>
+                <hr className="w-[500px]" />
+              </div>
+            )}
+          </div>
+          <div
+            className="mb-[20px]"
+            onClick={() => {
+              setFaq3(!faq3);
+            }}
+          >
+            {faq3 ? (
+              <div>
+                <label className="flex w-[500px] rounded-[10px] text-left text-[#ffffff50] hover:font-bold hover:text-[#ffffff]">
+                  <p className=" grid  py-[15px] text-left text-2xl  ">
+                    How to upload songs?
+                  </p>
+                  <br />
+                </label>
+                <hr className="w-[500px]" />
+              </div>
+            ) : (
+              <div>
+                <label className="flex w-[500px] rounded-[10px] ">
+                  <p className="  grid  py-[15px] text-2xl text-white">
+                    Upload songs using the IPFS file system and paste the hash
+                    while uploading it to our platform.
+                  </p>
+                </label>
+                <hr className="w-[500px]" />
+              </div>
+            )}
+          </div>
+          <div
+            className="mb-[20px]"
+            onClick={() => {
+              setFaq4(!faq4);
+            }}
+          >
+            {faq4 ? (
+              <div>
+                <label className="flex w-[500px] rounded-[10px] text-left text-[#ffffff50] hover:font-bold hover:text-[#ffffff]">
+                  <p className=" grid  py-[15px] text-left text-2xl  ">
+                    How is my song secure?
+                  </p>
+                  <br />
+                </label>
+                <hr className="w-[500px]" />
+              </div>
+            ) : (
+              <div>
+                <label className="flex w-[500px] rounded-[10px] ">
+                  <p className="  grid  py-[15px] text-2xl text-white">
+                    With IPFS the song is provided with an unique hash which
+                    authenticates the ownership of the song
+                  </p>
+                </label>
+                <hr className="w-[500px]" />
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
