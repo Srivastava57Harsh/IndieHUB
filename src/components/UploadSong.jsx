@@ -12,7 +12,7 @@ export default function UploadSong() {
         <div className="absolute inset-0 z-0 ml-[15vh]">
           <Parallax />
         </div>
-        <div>
+        <div className="absolute z-40">
           <Navbar />
           <div className="w-full mt-[2vh]">
             <p className="text-6xl font-semibold text-white text-center ">

@@ -11,7 +11,7 @@ const Navbar = () => {
             className="w-fit md:ml-[3vw] text-white font-semibold text-2xl pl-[0.8vw]"
             href="/"
           >
-            IndieHUB{" "}
+            IndieHUB
           </a>
         </div>
         <div className="md:block hidden ml-[50vw] ">

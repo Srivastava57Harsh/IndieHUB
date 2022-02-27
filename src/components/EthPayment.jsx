@@ -25,7 +25,7 @@ export default function UploadSong() {
                 <input
                   class="placeholder:text-gray-300 placeholder-shown:text-3xl 
                  focus:border-blue-300  w-[40%] h-[8vh]  outline-none border-2 border-red-400 bg-[#ffffff20] rounded-[15px] px-[15px] text-3xl  text-white"
-                  placeholder="IPFS Hash"
+                  placeholder="Account Address"
                 />
               </div>
 
