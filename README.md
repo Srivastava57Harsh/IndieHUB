@@ -1,3 +1,3 @@
 ## IndieHub
 
-[View Deployment](https://indie-hub.vercel.app/)
+<!-- [View Deployment](https://indie-hub.vercel.app/) -->
